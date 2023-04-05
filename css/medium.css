@@ -6,7 +6,6 @@
 
   header h2 {
     font-size: 1.5rem;
-
   }
 
   header img {
@@ -14,5 +13,17 @@
   }
   .medium-6 {
     width: 50%;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    width: 25%; float: left;
   }
 } /* end of media query */
