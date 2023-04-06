@@ -17,10 +17,16 @@ body {
 
 /* grid rules */
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+@for $i from 1 through 12 {
+  $w: ($i / 12) * 100%;
+  .small-#{$i} {
+    flex-basis: $w;
+  }
+} //end loop
 .limited {
   max-width: 1140px;
   margin: auto;
@@ -139,7 +145,6 @@ main {
     font-size: 1.2rem;
     margin: 0 0 0.3rem 0;
   } //end of paragraph
-
 } //end of main
 
 .labeled {
