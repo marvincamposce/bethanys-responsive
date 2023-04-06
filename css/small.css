@@ -35,6 +35,10 @@ body {
     width: 100%;
 }
 
+.small-6 {
+    width: 50%;
+}
+
 /* header rules */
 header {
     background-color: #9b87b8;
